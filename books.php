@@ -11,6 +11,7 @@
 </head>
 <body class="bg-dark text-white">
 <ul>
+    <h3>Приветственный текст!</h3>
     <a href="readers.php" class="btn btn-outline-primary">Читательсы</a>
     <a href="books.php" class="btn btn-outline-danger">Книжы</a>
     <table class="table table-dark">
@@ -24,23 +25,11 @@
             <th scope="col">Дата взятие</th>
         </tr>
         </thead>
-        <tr>
-            <td>1</td>
-            <td>Книга силы</td>
-            <td>322 год</td>
-            <td>Взята</td>
-            <td>Lorem ipsum dolor.</td>
-            <td>Lorem ipsum.</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Книга силы</td>
-            <td>322 год</td>
-            <td>Взята</td>
-            <td>Lorem ipsum dolor.</td>
-            <td>Lorem ipsum.</td>
-        </tr>
+        <?php
+        require "booksQuery.php";
+        ?>
     </table>
+    2020 г. тел.: 3228 1332 28
 </ul>
 </body>
 </html>

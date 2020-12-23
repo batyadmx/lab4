@@ -12,25 +12,22 @@
 </head>
 <body class="table table-dark">
 <ul>
+    <h3>Приветственный текст!</h3>
     <a href="readers.php" class="btn btn-outline-primary">Читательсы</a>
     <a href="books.php" class="btn btn-outline-danger">Книжы</a>
     <table class="table table-dark">
+        <thead>
         <tr>
-            <td>Номер</td>
-            <td>Имя</td>
-            <td>Фамили</td>
+            <th scope="col">Номер</th>
+            <th scope="col">Имя</th>
+            <th scope="col">Фамилия</th>
         </tr>
-        <tr>
-            <td>1</td>
-            <td>Вася</td>
-            <td>Пипин</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Марат</td>
-            <td>Башаров</td>
-        </tr>
+        </thead>
+        <?php
+            require "readersQuery.php";
+        ?>
     </table>
+    2020 г. тел.: 3228 1332 28
 </ul>
 </body>
 </html>
