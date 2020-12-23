@@ -12,9 +12,17 @@
 </head>
 <body class="table table-dark">
 <ul>
-    <h3>Приветственный текст!</h3>
     <a href="readers.php" class="btn btn-outline-primary">Читательсы</a>
     <a href="books.php" class="btn btn-outline-danger">Книжы</a>
+</ul>
+<hr>
+<div class="jumbotron text-dark">
+    <div class="container">
+        <h1>Привет всем на нашем сайте</h1>
+        <h3>Привет ))!0</h3>
+        <p>Какой то текст.</p>
+    </div>
+</div>
     <table class="table table-dark">
         <thead>
         <tr>
@@ -28,6 +36,5 @@
         ?>
     </table>
     2020 г. тел.: 3228 1332 28
-</ul>
 </body>
 </html>
