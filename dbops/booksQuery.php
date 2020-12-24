@@ -26,6 +26,8 @@ foreach ($books as $book){
             $taken_at = $log["taken_at"];
         }
     }
+    if (!$is_taken and array_key_exists("filter",$_GET) and $_GET["filter"] == "on")
+        continue;
     $str = "<tr>";
     foreach ($book as $at){
         $str = $str . "<td>$at</td>";
