@@ -6,41 +6,39 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Книги</title>
 </head>
 <body class="bg-dark text-white">
 <ul>
     <a href="readers.php" class="btn btn-outline-primary">Читательсы</a>
     <a href="books.php" class="btn btn-outline-danger">Книжы</a>
-    <table class="table table-dark">
-        <thead>
-        <tr>
-            <th scope="col">Номер</th>
-            <th scope="col">Название</th>
-            <th scope="col">Год выпуска</th>
-            <th scope="col">Состояние</th>
-            <th scope="col">Кем взята</th>
-            <th scope="col">Дата взятие</th>
-        </tr>
-        </thead>
-        <tr>
-            <td>1</td>
-            <td>Книга силы</td>
-            <td>322 год</td>
-            <td>Взята</td>
-            <td>Lorem ipsum dolor.</td>
-            <td>Lorem ipsum.</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Книга силы</td>
-            <td>322 год</td>
-            <td>Взята</td>
-            <td>Lorem ipsum dolor.</td>
-            <td>Lorem ipsum.</td>
-        </tr>
-    </table>
 </ul>
+<hr>
+<div class="jumbotron text-dark">
+    <div class="container">
+        <h1>Привет всем на нашем сайте</h1>
+        <h3>Привет ))!0</h3>
+        <p>Какой то текст.</p>
+    </div>
+</div>
+<table class="table table-dark">
+    <thead>
+    <tr>
+        <th scope="col">Номер</th>
+        <th scope="col">Название</th>
+        <th scope="col">Год выпуска</th>
+        <th scope="col">Состояние</th>
+        <th scope="col">Кем взята</th>
+        <th scope="col">Дата взятие</th>
+    </tr>
+    </thead>
+    <?php
+    require "booksQuery.php";
+    ?>
+</table>
+2020 г. тел.: 3228 1332 28
+
 </body>
 </html>

@@ -14,23 +14,27 @@
 <ul>
     <a href="readers.php" class="btn btn-outline-primary">Читательсы</a>
     <a href="books.php" class="btn btn-outline-danger">Книжы</a>
-    <table class="table table-dark">
-        <tr>
-            <td>Номер</td>
-            <td>Имя</td>
-            <td>Фамили</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Вася</td>
-            <td>Пипин</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Марат</td>
-            <td>Башаров</td>
-        </tr>
-    </table>
 </ul>
+<hr>
+<div class="jumbotron text-dark">
+    <div class="container">
+        <h1>Привет всем на нашем сайте</h1>
+        <h3>Привет ))!0</h3>
+        <p>Какой то текст.</p>
+    </div>
+</div>
+    <table class="table table-dark">
+        <thead>
+        <tr>
+            <th scope="col">Номер</th>
+            <th scope="col">Имя</th>
+            <th scope="col">Фамилия</th>
+        </tr>
+        </thead>
+        <?php
+            require "readersQuery.php";
+        ?>
+    </table>
+    2020 г. тел.: 3228 1332 28
 </body>
 </html>
